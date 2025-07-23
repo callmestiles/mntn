@@ -3,7 +3,7 @@ import { navLinks } from "../constants/nav-links";
 function Navbar() {
   return (
     <nav>
-      <div className="content-container pt-10 flex flex-row items-center justify-between text-white font-gilroy-medium">
+      <div className="h-20 flex flex-row items-center justify-between text-white font-gilroy-medium">
         <a href="/" aria-label="homepage">
           <h3 className="font-chronicle text-3xl font-semibold">MNTN</h3>
         </a>
