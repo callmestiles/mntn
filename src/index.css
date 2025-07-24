@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap");
 @import "tailwindcss";
 
 @font-face {
@@ -25,12 +26,17 @@
   --font-chronicle: "ChronicleDisplay", serif;
   --font-gilroy-regular: "GilroyRegular", sans-serif;
   --font-gilroy-medium: "GilroyMedium", sans-serif;
+  --font-cursive: "Edu NSW ACT Cursive", serif;
 }
 
 @utility content-container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-10;
 }
 
-/* body {
-  background-color: black;
-} */
+@utility noisy {
+  @apply bg-transparent size-full absolute inset-0 bg-[url('./images/noise.png')] bg-cover bg-center;
+}
+
+body {
+  font-family: "GilroyRegular", sans-serif;
+}
