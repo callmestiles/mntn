@@ -9,7 +9,7 @@ function Hero() {
       {/* Overlay to make navbar items and text readable */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent z-0" />
       {/* Overlay to transition between pages */}
-      <div className="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-b from-black/10 to-[#293b1e] z-0" />
+      <div className="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-b from-black/10 to-[#4e6832] z-0" />
 
       {/* Content Container */}
       <div className="absolute inset-0 h-full content-container z-1 flex flex-col">

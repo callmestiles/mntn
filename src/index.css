@@ -37,6 +37,34 @@
   @apply bg-transparent size-full absolute inset-0 bg-[url('./images/noise.png')] bg-cover bg-center;
 }
 
+@utility radial-gradient {
+  background: radial-gradient(
+    circle at bottom center,
+    #4e6832 0%,
+    #4e6832 50%,
+    #293b1e 100%
+  );
+}
+
+@utility mask-img {
+  mask-image: url("./images/mask-img.png");
+  -webkit-mask-image: url("./images/mask-img.png");
+  mask-size: 60%;
+  -webkit-mask-size: 60%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: top;
+  -webkit-mask-position: top;
+}
+
+@utility absolute-x-center {
+  @apply absolute left-1/2 transform -translate-x-1/2;
+}
+
+@utility absolute-y-center {
+  @apply absolute top-1/2 transform -translate-y-1/2;
+}
+
 body {
   font-family: "GilroyRegular", sans-serif;
 }

@@ -1,3 +1,4 @@
+import Details from "./components/Details";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Hero />
       <Features />
+      <Details />
     </div>
   );
 }

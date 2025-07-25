@@ -2,8 +2,8 @@ import FeaturesCard from "./Features-Card";
 
 function Features() {
   return (
-    <section className="py-20 relative bg-[#293b1e] text-white">
-      <div className="content-container flex flex-col gap-25 items-end">
+    <section className="py-20 relative bg-[#4e6832] text-white">
+      <div className="content-container flex flex-col gap-15 items-end">
         <FeaturesCard
           title="Get Started"
           subtitle="What level of hiker are you?"
